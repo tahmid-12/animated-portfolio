@@ -5,32 +5,39 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "OOharagumi",
+    year: "2021",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
-    link: "#",
+    image: "../../public/images/Ooharagumi.jpg",
+    link: "https://ooharagumi.co.jp/",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "Online Car Buying and Selling Platform",
+    year: "2021",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
-    link: "#",
+    image: "../../public/images/Bhalogari.jpg",
+    link: "https://bhalogari.com/",
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "Paperfly Merchant Panel",
+    year: "2022",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
-    link: "#",
+    image: "../../public/images/Paperfly.png",
+    link: "https://go.paperfly.com.bd/",
   },
   {
-    name: "Bank of Luck",
-    year: "May2024",
+    name: "XIT Admin Panel",
+    year: "2024",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
-    link: "#",
+    image: "../../public/images/xit.jpg",
+    link: "http://merchant.xpressintown.com/",
+  },
+  {
+    name: "Educate U Admin Panel",
+    year: "2025-2026",
+    align: "right",
+    image: "../../public/images/PEN.jpg",
+    link: "http://35.179.130.168:5000/",
   },
 ];
 
@@ -54,6 +61,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}
