@@ -1,4 +1,4 @@
-import { LuArrowDownRight } from "react-icons/lu";
+import { LuArrowUpRight } from "react-icons/lu";
 
 const NavbarBtn = () => {
   return (
@@ -10,7 +10,7 @@ const NavbarBtn = () => {
     >
       Download CV
       <div className="sm:hidden md:block">
-        <LuArrowDownRight />
+        <LuArrowUpRight />
       </div>
     </a>
   );
